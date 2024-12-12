@@ -30,3 +30,18 @@ La pila es una estructura LIFO que se utiliza en este proyecto para:
 
 **Evaluador de Expresiones**  
 El evaluador analiza la expresión de izquierda a derecha. Utiliza la pila para aplicar correctamente la precedencia de los operadores y resuelve las subexpresiones respetando los paréntesis.
+
+ACTIVIDAD 2.6
+ La aplicación permite al usuario agregar, eliminar, buscar y visualizar canciones, aprovechando las propiedades dinámicas de las listas enlazadas. Este proyecto tiene como objetivo proporcionar una solución interactiva y eficiente para el manejo de datos secuenciales.
+ Clase Nodo
+La clase Nodo representa cada elemento de la lista enlazada. Contiene:
+cancion: Almacena el nombre de la canción.
+siguiente: Apunta al siguiente nodo en la lista.
+Clase ListaEnlazada
+Esta clase administra la lista enlazada y proporciona las operaciones principales:
+Agregar: Inserta un nuevo nodo al final de la lista.
+Eliminar: Busca y elimina un nodo que contenga la canción especificada.
+Buscar: Verifica si una canción está presente en la lista.
+Mostrar: Recorre y muestra todas las canciones en la lista.
+
+
